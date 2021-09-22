@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  padding: 0px 30px;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 100;
+  background-color: #ffffff;
+  top: 0;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+.header__left {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__input {
+  display: flex;
+  align-items: center;
+  background-color: #eff2f5;
+  border-radius: 33px;
+  padding: 10px;
+  margin-left: 10px;
+}
+.header__left input {
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
+}
+
+.header__left img {
+  height: 40px;
+}
+.header__center {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.header__center > .header__option {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+}
+.header__center > .header__option > i,
+.header__avatar > i {
+  font-size: 36px;
+  color: gray;
+  border-bottom: 4px solid transparent;
+}
+.header__center > .header__option > i:hover {
+  font-size: 36px;
+  color: #2e81f4;
+  border-bottom: 4px solid #2e81f4;
+}
+.header__right {
+  display: flex;
+}
+.header__info {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.header__info h4 {
+  margin-left: 10px;
+}
+.mobile_apps {
+  display: none !important;
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    padding: 10px 30px;
+  }
+  .header__center,
+  .header__info,
+  .header__info > h4 {
+    display: none;
+  }
+  .mobile_apps {
+    display: block !important;
+  }
+}

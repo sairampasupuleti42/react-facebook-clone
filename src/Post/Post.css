@@ -1,0 +1,92 @@
+.post__topcontainer {
+  border-radius: 15px;
+  background: #ffffff;
+  margin: 30px 0;
+  padding: 15px;
+}
+.post__top {
+  display: flex;
+}
+.post__top__left_user {
+  display: flex;
+  align-items: start;
+  padding: 5px 0;
+}
+.post__top__left_user h3 {
+  margin-bottom: 5px;
+}
+.post__top__left_user_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10px;
+}
+.post__top__left_user__tp {
+  display: flex;
+  align-items: center;
+}
+.post__top__left_user__tp i {
+  font-size: 16px;
+}
+.post__time {
+  font-weight: 500;
+  color: darkslategray;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.post__privacy {
+  margin-left: 10px;
+}
+.post__body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 15px 0px;
+}
+.post__body img {
+  max-width: 100%;
+  margin: auto;
+}
+.post__bottom {
+  padding: 10px 30px;
+}
+.post__bottom_count {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.post__bottom_reactions {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #f2f2f2;
+  padding: 10px;
+}
+.post__bottom_count .post__option {
+  display: flex;
+  align-items: center;
+}
+.post__bottom_reactions .post__option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 15px;
+  color: gray;
+}
+
+.post__bottom_reactions .post__option:hover {
+  background-color: #f2f2f2;
+  color: #2e81f4;
+  border-radius: 999px;
+}
+.post__option i {
+  margin-right: 5;
+}
+.post__top__center__action_status {
+  margin: 4px 1px;
+  font-size: 14px;
+}
+mark {
+  background: yellow;
+}
